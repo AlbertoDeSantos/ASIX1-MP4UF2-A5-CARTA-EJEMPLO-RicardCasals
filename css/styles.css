@@ -219,6 +219,18 @@ h3 {
     body {
         background: rgb(59,56,59);
     }
+    
+    body {
+        background: rgb(59,56,59);
+    }
+
+    body::-webkit-scrollbar {
+        width: 8px;
+    }
+      
+    body::-webkit-scrollbar-track {
+        color: rgb(13, 12, 13);
+    }
 
     .column-3 {
         width: 100%;
