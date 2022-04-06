@@ -1,0 +1,307 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400&display=swap');
+
+
+* {
+    box-sizing: border-box;
+    font-family: 'Oswald', sans-serif;
+}
+
+
+body {
+    margin: 0;
+}
+
+
+/* Clear floats after the columns */
+.rows:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* Diseño de columnas */
+.column-1{
+    width: 100%;
+    float: left;
+}
+
+.column-2{
+    width: 50%;
+    float: left;
+}
+
+.column-3{
+    width: 33.33%;
+    float: left;
+}
+
+.column-4{
+    width: 25%;
+    float: left;
+}
+
+.column-5{
+    width: 20%;
+    float: left;
+}
+
+.column-6{
+    width: 16.66%;
+    float: left;
+}
+
+.column-75{
+    width: 75%;
+    float: left;
+}
+
+
+
+#menu {
+    width: 100%;
+    height: 100vh;
+}
+
+.triptico {
+    border-left: 0px;
+    padding: 2vmax;
+    height: 100%;
+}
+
+img {
+    width: 47%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+h3 {
+    width: fit-content;
+    margin: 1vmax auto;
+    text-align: center;
+    font-weight: 600;
+    font-size: 2.2vmax;
+    padding: 0px 15px;
+    color: #9c8e7d;
+    border-top: 0.2vmax solid #cbcbc9;
+    border-bottom: 0.2vmax solid #cbcbc9;
+}
+
+
+.plato {
+    padding: 1vmax 0px;
+}
+
+.plato h4 {
+    width: 100%;
+    color: #cbcbc9;
+    font-size: 1.3vmax;
+    margin: 0;
+    display: flex;
+}
+
+.plato h4 span:last-of-type {
+    margin-left: auto;
+    font-size: 1vmax;
+}
+
+.plato p {
+    margin: 0;
+    font-size: 1.1vmax;
+    color: #9c8e7d;
+}
+
+
+.iconos-container {
+    display: flex;
+    width: fit-content;
+    padding: 0px 10px;
+    gap: 0.7vmax;
+}
+
+.icono {
+    color: #cbcbc9;
+    border-radius: 100%;
+    border: 0.15vmax solid #cbcbc9;
+    padding: 0.4vmax;
+    font-size: 0.8vmax;
+}
+
+.iconos-desc {
+    width: 90%;
+    margin: 0 auto;
+    margin-bottom: 1.5vmax;
+}
+
+.icono-item {
+    max-width: fit-content;
+    max-height: 3vmax;
+}
+
+.iconos-flex {
+    display: flex;
+    justify-content: center;
+    gap: 2vmax;
+    margin: 0;
+}
+
+.iconos-desc label {
+    color: #cbcbc9;
+    font-size: 1vmax;
+}
+
+
+#triptico1 {
+    padding-left: 3vmax;
+    background: rgb(59,56,59);
+    background: linear-gradient(90deg, rgba(59,56,59,1) 0%, rgba(59,56,59,1) 60%, rgba(48,45,48,1) 100%);
+    animation: giro1 2s forwards;
+    animation-delay: 1s;
+    transform-origin: top right;
+    transform: rotateY(160deg);
+}
+
+#triptico1 * {
+    opacity: 0;
+    animation: mostrar 0.5s forwards;
+    animation-delay: 1s;
+}
+
+#triptico2 {
+    background: rgb(48,43,48);
+    background: linear-gradient(90deg, rgba(48,45,48,1) 0%, rgba(59,56,59,1) 30%, rgba(59,56,59,1) 70%, rgba(48,45,48,1) 100%);
+}
+
+#triptico3 {
+    padding-right: 3vmax;
+    background: rgb(46,41,46);
+    background: linear-gradient(90deg, rgba(48,45,48,1) 0%, rgba(59,56,59,1) 40%, rgba(59,56,59,1) 100%);
+    animation: giro2 2s forwards;
+    transform-origin: top left;
+    transform: rotateY(160deg);
+}
+
+#triptico3 * {
+    opacity: 0;
+    animation: mostrar 0.5s forwards;
+}
+
+
+@keyframes giro1 {
+    0% {
+        transform: rotateY(160deg);
+    }
+    100% {
+        transform: rotateY(0) skewY(0);
+    }
+}
+
+@keyframes giro2 {
+    0% {
+        transform: rotateY(160deg);
+    }
+    100% {
+        transform: rotateY(0);
+    }
+} 
+
+@keyframes mostrar {
+    99% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 100%;
+    }
+}
+
+@media (max-width: 1000px) {
+
+    body {
+        background: rgb(59,56,59);
+    }
+
+    .column-3 {
+        width: 100%;
+    }
+
+    #menu * { 
+        animation: none;
+        transform: none;
+        opacity: 100%;
+    }
+
+    #menu {
+        height: fit-content;
+    }
+
+    #triptico1 {
+        background: rgb(59,56,59);
+    }
+
+    #triptico2 {
+        background: rgb(59,56,59);
+    }
+
+    #triptico3 {
+        background: rgb(59,56,59);
+    }
+    
+    .triptico {
+        border-left: 0px solid black;
+        padding: 2vmax;
+        height: 100%;
+    }
+
+    .icono {
+        border: 0.4vw solid #cbcbc9;
+        padding: 1vw;
+        font-size: 3vw;
+    }
+
+    .iconos-desc {
+        margin-bottom: 100px;
+    }
+
+    .icono-item {
+        max-height: fit-content;
+    }
+
+    .iconos-flex {
+        gap: 25px;
+    }
+
+    .iconos-desc label {
+        font-size: 3.5vw;
+    }
+
+    h3 {
+        margin: 30px auto;
+        font-size: 7vw;
+        border-top: 3px solid #cbcbc9;
+        border-bottom: 3px solid #cbcbc9;
+    }
+
+    .plato {
+        padding: 3vw 0px;
+    }
+
+    .plato h4 {
+        font-size: 4vw;
+    }
+
+    .plato h4 span:last-of-type {
+        font-size: 3vw;
+    }
+
+    .plato p {
+        font-size: 3vw;
+    }
+    
+    #triptico2.triptico {
+        padding-bottom: 0;
+    }
+
+    #triptico3.triptico {
+        padding-top: 0;
+    }
+}

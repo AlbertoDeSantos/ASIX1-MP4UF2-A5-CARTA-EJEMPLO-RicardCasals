@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<menu><!-- Marino, Vegetal, Carne, Picante, Lacteo,  -->
+    <plato tipo="entrante">
+        <nombre>ANCHOAS CON PIMIENTOS</nombre>
+        <precio>1.80</precio>
+        <descripcion>Marinado de anchoas con pimientos rellenos.</descripcion>
+        <calorias>200kcal</calorias>
+        <caracteristicas>
+            <caracteristica>Marino</caracteristica>
+            <caracteristica>Vegetal</caracteristica>
+        </caracteristicas>
+    </plato>
+    <plato tipo="entrante">
+        <nombre>TORTILLA DE PATATAS</nombre>
+        <precio>2.75</precio>
+        <descripcion>Revuelto de huevos con patatas hervidad y cebolla.</descripcion>
+        <calorias>250kcal</calorias>
+        <caracteristicas>
+            <caracteristica>Lacteo</caracteristica>
+            <caracteristica>Vegetal</caracteristica>
+        </caracteristicas>
+    </plato>
+    <plato tipo="entrante">
+        <nombre>CROQUETAS CON GAMBAS</nombre>
+        <precio>4.00</precio>
+        <descripcion>Croquetas revozadas rellenas de gambas al ajillo.</descripcion>
+        <calorias>250kcal</calorias>
+        <caracteristicas>
+            <caracteristica>Marino</caracteristica>
+            <caracteristica>Lacteo</caracteristica>
+        </caracteristicas>
+    </plato>
+    <plato tipo="entrante">
+        <nombre>ENSALADA CESAR</nombre>
+        <precio>2.50</precio>
+        <descripcion>Lechuga romana acompañada de anchoas, tomate y queso.</descripcion>
+        <calorias>150kcal</calorias>
+        <caracteristicas>
+            <caracteristica>Marino</caracteristica>
+            <caracteristica>Lacteo</caracteristica>
+            <caracteristica>Vegetal</caracteristica>
+        </caracteristicas>
+    </plato>
+    <plato tipo="hamburgesa">
+        <nombre>AMERICAN STYLE BURGER</nombre>
+        <precio>8.00</precio>
+        <descripcion>Hamburgesa de vacuno con extra de queso y beacon.</descripcion>
+        <calorias>450kcal</calorias>
+        <caracteristicas>
+            <caracteristica>Carne</caracteristica>
+            <caracteristica>Lacteo</caracteristica>
+        </caracteristicas>
+    </plato>
+    <plato tipo="hamburgesa">
+        <nombre>DOUBLE EGG BURGER</nombre>
+        <precio>7.50</precio>
+        <descripcion>Hamburgesa de vacuno con dos huevos fritos y queso.</descripcion>
+        <calorias>400kcal</calorias>
+        <caracteristicas>
+            <caracteristica>Carne</caracteristica>
+            <caracteristica>Lacteo</caracteristica>
+        </caracteristicas>
+    </plato>
+    <plato tipo="hamburgesa">
+        <nombre>MEXICAN STYLE BURGER</nombre>
+        <precio>7.00</precio>
+        <descripcion>Hamburgesa de ternera con salsa guacamole y nachos.</descripcion>
+        <calorias>300kcal</calorias>
+        <caracteristicas>
+            <caracteristica>Carne</caracteristica>
+            <caracteristica>Vegetal</caracteristica>
+            <caracteristica>Lacteo</caracteristica>
+            <caracteristica>Picante</caracteristica>
+        </caracteristicas>
+    </plato>
+    <plato tipo="hamburgesa">
+        <nombre>CHICKEN BURGER</nombre>
+        <precio>5.50</precio>
+        <descripcion>Hamburgesa de pollo con queso.</descripcion>
+        <calorias>350kcal</calorias>
+        <caracteristicas>
+            <caracteristica>Carne</caracteristica>
+            <caracteristica>Lacteo</caracteristica>
+        </caracteristicas>
+    </plato>
+    <plato tipo="hamburgesa">
+        <nombre>FOUR CHEESE BURGER</nombre>
+        <precio>8.00</precio>
+        <descripcion>Hamburgesa con queso cheddar, gouda, feta y mozzarella.</descripcion>
+        <calorias>400kcal</calorias>
+        <caracteristicas>
+            <caracteristica>Carne</caracteristica>
+            <caracteristica>Lacteo</caracteristica>
+        </caracteristicas>
+    </plato>
+    <plato tipo="hamburgesa">
+        <nombre>HAWAIIAN BURGER</nombre>
+        <precio>6.00</precio>
+        <descripcion>Carne de ternera con trozos de piña y pepinillos.</descripcion>
+        <calorias>250kcal</calorias>
+        <caracteristicas>
+            <caracteristica>Carne</caracteristica>
+            <caracteristica>Vegetal</caracteristica>
+        </caracteristicas>
+    </plato>
+    <plato tipo="hamburgesa">
+        <nombre>HOT SPICY BURGER</nombre>
+        <precio>7.00</precio>
+        <descripcion>Carne de pollo con beacon y salsa picante.</descripcion>
+        <calorias>350kcal</calorias>
+        <caracteristicas>
+            <caracteristica>Carne</caracteristica>
+            <caracteristica>Picante</caracteristica>
+        </caracteristicas>
+    </plato>
+    <plato tipo="hamburgesa">
+        <nombre>EXTREM BURGER</nombre>
+        <precio>8.50</precio>
+        <descripcion>Doble carne de vacuno con queso y pepinillos agridulces.</descripcion>
+        <calorias>450kcal</calorias>
+        <caracteristicas>
+            <caracteristica>Carne</caracteristica>
+            <caracteristica>Lacteo</caracteristica>
+        </caracteristicas>
+    </plato>
+    <plato tipo="hamburgesa">
+        <nombre>GRAN EXTREM BURGER</nombre>
+        <precio>9.50</precio>
+        <descripcion>Triple carne de vacuno con extra de queso y pepinillos.</descripcion>
+        <calorias>550kcal</calorias>
+        <caracteristicas>
+            <caracteristica>Carne</caracteristica>
+            <caracteristica>Lacteo</caracteristica>
+        </caracteristicas>
+    </plato>
+    <plato tipo="hamburgesa">
+        <nombre>VULCANO BURGER</nombre>
+        <precio>8.00</precio>
+        <descripcion>Doble carne de pollo con revosante queso fundido.</descripcion>
+        <calorias>400kcal</calorias>
+        <caracteristicas>
+            <caracteristica>Carne</caracteristica>
+            <caracteristica>Lacteo</caracteristica>
+        </caracteristicas>
+    </plato>
+    <plato tipo="hamburgesa">
+        <nombre>SIMPLE BURGER</nombre>
+        <precio>4.00</precio>
+        <descripcion>Carne de ternera con lechuga y tomate.</descripcion>
+        <calorias>250kcal</calorias>
+        <caracteristicas>
+            <caracteristica>Carne</caracteristica>
+            <caracteristica>Vegetal</caracteristica>
+        </caracteristicas>
+    </plato>
+    <plato tipo="hamburgesa">
+        <nombre>GARDEN BURGER</nombre>
+        <precio>6.50</precio>
+        <descripcion>Masa de soja a la brasa acompañada de lechuga y tomate.</descripcion>
+        <calorias>300kcal</calorias>
+        <caracteristicas>
+            <caracteristica>Vegetal</caracteristica>
+        </caracteristicas>
+    </plato>
+    <plato tipo="postre">
+        <nombre>HELADO DE CHOCOLATE</nombre>
+        <precio>3.00</precio>
+        <descripcion>Surtido de vainilla con helado de chocolate.</descripcion>
+        <calorias>250kcal</calorias>
+        <caracteristicas>
+            <caracteristica>Lacteo</caracteristica>
+        </caracteristicas>
+    </plato>
+     <plato tipo="postre">
+        <nombre>FRUTA DE TEMPORADA</nombre>
+        <precio>1.00</precio>
+        <descripcion>Futa madura de temporada.</descripcion>
+        <calorias>150kcal</calorias>
+        <caracteristicas>
+            <caracteristica>Vegetal</caracteristica>
+        </caracteristicas>
+    </plato>
+</menu>
