@@ -259,10 +259,17 @@ h3 {
     }
     
     .triptico {
-        border-left: 0px solid black;
-        padding: 2vmax;
-        height: 100%;
+        padding: 3vw;
     }
+
+    #triptico1 {
+        padding-left: 3vw;
+    }
+
+    #triptico3 {
+        padding-right: 3vw;
+    }
+
 
     .icono {
         border: 0.4vw solid #cbcbc9;
